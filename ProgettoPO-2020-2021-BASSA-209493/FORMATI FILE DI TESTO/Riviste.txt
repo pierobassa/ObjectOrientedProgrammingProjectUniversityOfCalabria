@@ -1,0 +1,52 @@
+NOME
+Conto Italiano
+
+ACRONIMO
+CI
+
+EDITORE
+Laura Maggi
+
+VOLUME
+1
+
+DATA
+03/11/2020
+
+
+DONE
+
+NOME
+F1 Magazine
+
+ACRONIMO
+F1M
+
+EDITORE
+Luca Prezemolo
+
+VOLUME
+4
+
+DATA
+03/11/2020
+
+
+DONE
+
+NOME
+Motorsport News
+
+ACRONIMO
+MN
+
+EDITORE
+Lucia Mirarchi
+
+VOLUME
+7
+
+DATA
+12/01/2021
+
+DONE

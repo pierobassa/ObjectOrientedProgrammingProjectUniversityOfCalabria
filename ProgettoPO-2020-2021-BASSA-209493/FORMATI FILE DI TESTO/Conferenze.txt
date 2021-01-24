@@ -1,0 +1,81 @@
+NOME
+Intelligenza Artificiale Summit 2020
+
+ACRONIMO
+AI
+
+DATA
+17/03/2020
+
+LUOGO
+Monza
+
+NUMERO_PARTECIPANTI
+200
+
+ORGANIZZATORI
+Francesco Montuoro
+Luca De Montezemolo
+
+DONE
+
+NOME
+Rivoluzione Poste Italiane
+
+ACRONIMO
+RPT
+
+DATA
+01/01/2021
+
+LUOGO
+Milano
+
+NUMERO_PARTECIPANTI
+700
+
+ORGANIZZATORI
+Lucia Mirarchi
+
+DONE
+
+NOME
+Samsung October Event
+
+ACRONIMO
+SOE
+
+DATA
+12/10/2020
+
+LUOGO
+Seoul
+
+NUMERO_PARTECIPANTI
+1500
+
+ORGANIZZATORI
+Marco De Vries
+
+DONE
+
+NOME
+Apple Christmas event
+
+ACRONIMO
+APPLECE2020
+
+DATA
+01/12/2020
+
+LUOGO
+San Francisco
+
+NUMERO_PARTECIPANTI
+1000
+
+ORGANIZZATORI
+Charles Verstappen
+
+DONE
+

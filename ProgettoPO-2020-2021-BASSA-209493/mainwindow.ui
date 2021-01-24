@@ -1,0 +1,6247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1189</width>
+    <height>651</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1189</width>
+    <height>651</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Progetto Bassa Piero</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-41</y>
+      <width>1231</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Reference Specialty</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(52, 52, 52);</string>
+    </property>
+    <property name="currentIndex">
+     <number>20</number>
+    </property>
+    <widget class="QWidget" name="home">
+     <widget class="QPushButton" name="bottoneInserimento">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>140</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserimento e Visualizzazione</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiASezioneB">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>220</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Sezione B</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiASezioneC">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>300</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Sezione C</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiASezioneD">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>380</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Sezione D</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiASezioneE">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>460</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Sezione E</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiASezioneF">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>540</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Sezione F</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiAInsDaFileDiTesto">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>140</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>IMPORT da file esterni</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaInserimento">
+     <widget class="QPushButton" name="bottoneInserisciAutore">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>190</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci Autore</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneInserisciArticolo">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>430</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci Articolo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneInserisciConferenza">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>270</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci Conferenza</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneInserisciRivista">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>350</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci Rivista</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaArticoli">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>430</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisAutori">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>190</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Autori</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisConferenze">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>270</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Conferenze</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisRiviste">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>350</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Riviste</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneInserAutomatico">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>110</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserimento automatico</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_54">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>70</y>
+        <width>391</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Clicca per inserire automaticamente Autori, Conferenze, Riviste e Articoli specificati nella funzione richiamata</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaInsAutore">
+     <widget class="QPushButton" name="bottoneInserAutore">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>570</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>INSERISCI AUTORE</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>190</y>
+        <width>60</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Cognome</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pulsanteVisualizzaAutori">
+      <property name="geometry">
+       <rect>
+        <x>830</x>
+        <y>570</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>VISUALIZZA TUTTI GLI AUTORI</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>310</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 198, 147);</string>
+      </property>
+      <property name="text">
+       <string>Afferenze Inserite:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="afferenzeInserite">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>330</y>
+        <width>281</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>240</y>
+        <width>59</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Afferenza</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneInserisciAfferenze">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>240</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci Afferenza</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>110</y>
+        <width>551</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci Nome e Cognome. Per le afferenze invece, inserire un'afferenza per volta. Cliccare &quot;Inserisci afferenza&quot; per inserire l'afferenza nello storico dell'autore.</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>140</y>
+        <width>36</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Nome</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneResetAutore">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>350</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>RESET</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoCognome">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>190</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+}
+</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoAfferenza">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>240</y>
+        <width>281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+}
+</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoNome">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>140</y>
+        <width>201</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+}
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaVisualizzaAutori">
+     <widget class="QListWidget" name="visualizzaAutori">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>180</y>
+        <width>311</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>160</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Autori Inseriti</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneIndietro">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>550</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci nuovo Autore</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaAfferenzeAutore">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>300</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Afferenze Autore Selezionato →</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzaAfferenzeAutore">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>180</y>
+        <width>311</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>160</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Afferenze autore</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_55">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>270</y>
+        <width>281</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Seleziona l'autore e poi clicca il bottone</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaInsArticolo">
+     <widget class="QPushButton" name="bottoneAggiungiArticolo">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>600</y>
+        <width>161</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi Articolo</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>131</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Titolo</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="autoriSelezionatiDentroInsArticolo">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>100</y>
+        <width>281</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>250</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Numero di pagine</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="articoliCorrelatiSelezionatiDentroIns">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>350</y>
+        <width>281</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QDoubleSpinBox" name="spinBoxPrezzo">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>270</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+border-radius: 7px;
+
+</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBoxNumeroPagine">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>270</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+border-radius: 7px;
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiApaginaSelezionaAutori">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>180</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Seleziona Autori per l'articolo</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="keywordInseriti">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>400</y>
+        <width>301</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiArticoliCorrelati">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>430</y>
+        <width>171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Seleziona Articoli Correlati</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>330</y>
+        <width>151</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Articoli Correlati Selezionati</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>950</x>
+        <y>80</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Autori Selezionati</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoKeyword">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>340</y>
+        <width>301</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneAggiungiKeyword">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>340</y>
+        <width>171</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi Keyword all'articolo</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>370</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Keyword aggiunti</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoTitolo">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>130</y>
+        <width>321</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>320</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Inserisci Keyword</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>250</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Prezzo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiAselezionaDestinazione">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>170</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Seleziona per quale Conferenza o Rivista</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneResetArticolo">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>440</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>RESET</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="campoListDestinazioneScelta">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>210</y>
+        <width>381</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisArticoli">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>600</y>
+        <width>191</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli Inseriti</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaVisualizzaArticoli">
+     <widget class="QListWidget" name="tuttiGliArticoliInseriti">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>160</y>
+        <width>421</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiAinsArticolo">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>570</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci nuovo articolo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaAutoriArticolo">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>250</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Autori →</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_34">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>140</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Articoli Inseriti</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaKeywordArticolo">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>320</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Keywords →</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzatoreArticolo">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>160</y>
+        <width>381</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+
+
+
+ </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaArtCorrArticolo">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>390</y>
+        <width>181</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli Correlati →</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_56">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>180</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Seleziona l'articolo e poi clicca il bottone per la visualizzazione desiderata</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSelezioneConferenzaOrivista">
+     <widget class="QRadioButton" name="radioPrendiConferenze">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>110</y>
+        <width>161</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Conferenze</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioPrendiRiviste">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>140</y>
+        <width>131</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Riviste</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="conferenzaOrivistaSelezionata">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>200</y>
+        <width>391</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_42">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>180</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Selezionato</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_41">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>180</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Inseriti:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottRimuovi">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>410</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>←</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzatoreConferenzeORiviste">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>200</y>
+        <width>391</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottSeleziona">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>370</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>→</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneFineConferenzaORivista">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>610</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>FINE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVaiAinsConferenza">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>310</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi nuova Conferenza</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVaiAinsRivista">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>370</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi nuova Rivista</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_39">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>110</y>
+        <width>711</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>← Clicca per visualizzare conferenze o riviste presenti. Se devi aggiungere una nuova, clicca i bottoni a sinistra</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSelezionaAutori">
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>210</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Autori Inseriti</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>210</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Autori Selezionati</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="tuttiGliAutori">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>230</y>
+        <width>331</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneRimuoviSelezionato">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>400</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>←</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneFine">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>590</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>FINE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneRimuoviTutti">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>440</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>⇇</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottonePrendiTutti">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>320</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>⇉</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="autoriSelezionati">
+      <property name="geometry">
+       <rect>
+        <x>650</x>
+        <y>230</y>
+        <width>331</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVaiAdAggiungiAutore">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>130</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi nuovo autore al database</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottonePrendiSelezionato">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>360</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>→</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSelezionaArticoliCorrelati">
+     <widget class="QListWidget" name="tuttiGliArticoli">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>200</y>
+        <width>351</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneRimuoviTuttiArticoli">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>390</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>⇇</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneFineSelezioneCorrelati">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>550</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>FINE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottonePrendiTuttiArticoli">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>270</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>⇉</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>180</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Articoli Selezionati</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_18">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>180</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Articoli Inseriti</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottonePrendiSelezionatoArticolo">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>310</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>→</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneRimuoviSelezionatoArticolo">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>350</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>16</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>←</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="articoliSelezionati">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>200</y>
+        <width>351</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaInsConferenza">
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>120</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Nome</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>96</x>
+        <y>170</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Acronimo</string>
+      </property>
+     </widget>
+     <widget class="QCalendarWidget" name="calendarWidgetConferenza">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>140</y>
+        <width>491</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(76, 171, 127);</string>
+      </property>
+      <property name="maximumDate">
+       <date>
+        <year>2200</year>
+        <month>12</month>
+        <day>31</day>
+       </date>
+      </property>
+      <property name="gridVisible">
+       <bool>true</bool>
+      </property>
+      <property name="verticalHeaderFormat">
+       <enum>QCalendarWidget::NoVerticalHeader</enum>
+      </property>
+      <property name="navigationBarVisible">
+       <bool>true</bool>
+      </property>
+      <property name="dateEditEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_21">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>110</y>
+        <width>231</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Specifica la data della Conferenza</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_22">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>220</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Luogo</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>250</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Numero di partecipanti</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="organizzatoriInseriti">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>390</y>
+        <width>341</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>370</y>
+        <width>161</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Orgnaizzatore/i aggiunti</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneAggiungiOrganizzatore">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>320</y>
+        <width>171</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi Organizzatore</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoOrganizzatore">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>320</y>
+        <width>231</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>310</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Nome e Cognome organizzatore</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneAggiungiConferenza">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>590</y>
+        <width>221</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi Conferenza</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBoxNumeroPartecipanti">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>270</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+border-radius: 7px;
+</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoLuogo">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>210</y>
+        <width>231</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoAcronimo">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>170</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoNomeConferenza">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>120</y>
+        <width>321</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaConferenze">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>590</y>
+        <width>281</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza tutte le Conferenze</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_40">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>430</y>
+        <width>551</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Tutti i campi sono obbligatori. Per gli organizzatori, inserire nome e cognome e cliccare &quot;Aggiungi Organizzatore&quot;. E' possibile avere più organizzatori.</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneResetConferenza">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>390</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>RESET</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaVisualizzaConferenze">
+     <widget class="QLabel" name="label_29">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>210</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Conferenze Inserite</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="tutteLeConferenze">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>230</y>
+        <width>391</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaOrganizzatori">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>340</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza organizzatori →</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzatoreConferenza">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>230</y>
+        <width>381</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaArticoliConf">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>410</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli della conferenza →</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneIndietroConf">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>150</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci nuova conferenza</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_57">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>270</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Seleziona la conferenza e poi clicca il bottone per la visualizzazione desiderata</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaInsRivista">
+     <widget class="QLabel" name="label_32">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>160</y>
+        <width>47</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Nome</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_30">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>210</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Acronimo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoEditore">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>260</y>
+        <width>231</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_31">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>260</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Editore</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoNomeRivista">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>160</y>
+        <width>301</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="campoAcronimoRivista">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>210</y>
+        <width>101</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="spinBoxVolume">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>330</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+border-radius: 7px;
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_33">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>310</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Volume della rivista</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneAggiungiRivista">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>420</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Aggiungi Rivista</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaRiviste">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>420</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Riviste Inserite</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>130</y>
+        <width>181</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Specifica la data della Rivista</string>
+      </property>
+     </widget>
+     <widget class="QCalendarWidget" name="calendarWidgetRivista">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>150</y>
+        <width>491</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(76, 171, 127);</string>
+      </property>
+      <property name="maximumDate">
+       <date>
+        <year>2200</year>
+        <month>12</month>
+        <day>31</day>
+       </date>
+      </property>
+      <property name="gridVisible">
+       <bool>true</bool>
+      </property>
+      <property name="verticalHeaderFormat">
+       <enum>QCalendarWidget::NoVerticalHeader</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_51">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>520</y>
+        <width>681</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Tutti i campi sono obbligatori e la rivista deve avere volume maggiore di zero.</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaVisualizzaRiviste">
+     <widget class="QListWidget" name="tutteLeRiviste">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>210</y>
+        <width>401</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzatoreArticoliRivista">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>210</y>
+        <width>401</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneVisualizzaArticoliRivista">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>370</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli della rivista →</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_35">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>190</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Riviste Inserite</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottoneIndietroRivista">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Inserisci nuova rivista</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>190</y>
+        <width>181</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Articoli della rivista selezionata</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_58">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>320</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(96, 214, 159);
+</string>
+      </property>
+      <property name="text">
+       <string>Seleziona la rivista e poi clicca il bottone</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSezioneB">
+     <widget class="QPushButton" name="bottVaiAVisArticoliRelativiAdAutore">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>160</y>
+        <width>351</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli relativi ad un Autore</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="botVisConferenze">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>280</y>
+        <width>351</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli relativi ad una Conferenza</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVisRiviste">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>400</y>
+        <width>351</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli relativi ad una Rivista</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSezBVisualizzaArticoliAutore">
+     <widget class="QLabel" name="label_38">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>150</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Articoli dell'autore</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVisArticoliAutore">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>320</y>
+        <width>211</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli dell'autore →</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="tuttiGliAutoriSEZB">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>170</y>
+        <width>421</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_37">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>150</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Autori Inseriti</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="articoliAutoreSelezionato">
+      <property name="geometry">
+       <rect>
+        <x>740</x>
+        <y>170</y>
+        <width>421</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSezioneC">
+     <widget class="QPushButton" name="bottVaiAkeywordAlto">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>170</y>
+        <width>431</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare le keyword la cui somma degli articoli 
+porta al guadagno più alto*</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVaiAselezionaAutore">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>300</y>
+        <width>431</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare gli articoli con il prezzo più basso tra 
+tutti gli articoli di un autore</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVaiAselezionaAutore_2">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>430</y>
+        <width>431</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare la media dei prezzi di tutti gli articoli di un autore</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaKeywordAlto">
+     <widget class="QListWidget" name="risultatoKeywordAlto">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>130</y>
+        <width>441</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>110</y>
+        <width>371</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Keyword la cui somma dei prezzi degli articoli associati è più alto</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSelezionaAutore">
+     <widget class="QLabel" name="label_43">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>120</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Seleziona l'autore desiderato</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="tuttiAutoriSezioneC">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>140</y>
+        <width>401</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottMetodoC3">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>390</y>
+        <width>271</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare la media dei prezzi di 
+tutti gli articoli dell'autore → </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottMetodoC1">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>260</y>
+        <width>271</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare gli articoli con il prezzo più basso
+ tra tutti gli articoli dell'autore → </string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzatoreSezioneC">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>140</y>
+        <width>401</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSezioneD">
+     <widget class="QPushButton" name="bottVaiAMetodoD2">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>220</y>
+        <width>501</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare gli articoli di un autore ordinati per prezzo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVaiAMetodoD5">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>360</y>
+        <width>501</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare gli articoli relativi a una keyword, ordinati per anno 
+ decrescente, a parità di anno, ordinati per prezzo crescente e a parità 
+di prezzo ordinati in ordine alfabetico per il cognome del primo autore*</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaMetodoD2">
+     <widget class="QListWidget" name="tuttiAutoriSezioneD">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>140</y>
+        <width>371</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottMetodoD2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>310</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare gli articoli dell'autore 
+ordinati per prezzo →</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzatoreMetodoD2">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>140</y>
+        <width>371</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_44">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>120</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Seleziona l'autore desiderato</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaMetodoD5">
+     <widget class="QLabel" name="label_45">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>110</y>
+        <width>181</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Seleziona Keyword Desiderato</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="visualizzatoreMetodoD5">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>130</y>
+        <width>421</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="tuttiKeywordSezioneD">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>130</y>
+        <width>421</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottMetodoD5">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>330</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza gli articoli secondo 
+l'ordine stabilito →</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSezioneE">
+     <widget class="QListWidget" name="rivisteSpecialistiche">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>120</y>
+        <width>571</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>100</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Riviste Specialistiche</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaSezioneF">
+     <widget class="QPushButton" name="bottVaiAmetodoF1">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>190</y>
+        <width>611</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare tutti gli articoli influenzati da un dato articolo, dove un articolo A influenza 
+un altro articolo B se o A è nella lista dei correlati di B e la data di pubblicazione di A è 
+ precedente rispetto a quella di B, oppure o A influenza C e C influenza B*</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVaiAmetodoF5">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>350</y>
+        <width>611</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizzare le conferenze simili ad una specificata dall’utente. Una conferenza è simile a
+un’altra conferenza se hanno almeno l’80% delle keyword in comune**</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaMetodoF1">
+     <widget class="QListWidget" name="tuttiArticoliMetodoF1">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>120</y>
+        <width>381</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_46">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>100</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Seleziona l'articolo</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottPrendiInfluenzati">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>320</y>
+        <width>221</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Articoli influenzati dal selezionato →</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="influenzati">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>120</y>
+        <width>381</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaMetodoF5">
+     <widget class="QListWidget" name="tutteConferenzeMetodoF5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>150</y>
+        <width>431</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_47">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>130</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Seleziona la conferenza</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="conferenzeSimili">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>150</y>
+        <width>431</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>8</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget{
+background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+}
+
+  QListWidget::item:selected {
+   background-color: rgb(96, 214, 159);
+ }
+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottPrendiSimiliMetodoF5">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>320</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Conferenze simili a 
+quella selezionata →</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>130</y>
+        <width>141</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Conferenze simili</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="paginaImportFileTesto">
+     <widget class="QLabel" name="label_53">
+      <property name="geometry">
+       <rect>
+        <x>126</x>
+        <y>260</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>File scelto</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBoxSceltaTipo">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>200</y>
+        <width>161</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(96, 214, 159);
+border-radius: 7px;
+</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Autori</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Conferenze</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Riviste</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Articoli</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QPushButton" name="bottPrendiFile">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>200</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Scegli File</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottImportFile">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>300</y>
+        <width>111</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Importa</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVisAutori">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>180</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Autori inseriti</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVisConferenze">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>250</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Conferenze inserite</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottonVisRiviste">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>320</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Riviste inserite</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bottVisArticoli">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>390</y>
+        <width>241</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+        <pointsize>9</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(60, 135, 99, 255), stop:1 rgba(82, 183, 136, 255));
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Visualizza Articoli inseriti</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelNomeFIle">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>260</y>
+        <width>231</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Tahoma</family>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+	color: rgb(96, 214, 159);
+	border-radius: 7px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(103, 231, 171);
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_49">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>390</y>
+        <width>661</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Assicurati di inserire prima gli autori, poi conferenze e/o riviste e infine gli articoli. Questo perché un articolo deve avere almeno un autore e deve essere associato ad una conferenza o rivista</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_50">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>470</y>
+        <width>651</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Il formato per ciascun inserimento si trova nella cartela &quot;Input da File di testo&quot;. Ogni classe ha un suo formato, pertanto è necessario specificare quale si sta inserendo.</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_52">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>560</y>
+        <width>651</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(89, 199, 148);</string>
+      </property>
+      <property name="text">
+       <string>Per sapere l'id dell'autore per ogni articolo (necessario per specificare l'esatto autore che vuoi inserire per l'articolo), è sufficiente cliccare &quot;Visualizza Autori Inseriti&quot; e il suo id sarà il numero a sinsitra dell'autore</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="bottoneHome">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Tahoma</family>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(82, 183, 136);
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+QPushButton:hover{
+	background-color: rgb(60, 134, 99);
+}
+QPushButton:pressed {
+	background-color: rgb(43, 97, 72);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>HOME</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

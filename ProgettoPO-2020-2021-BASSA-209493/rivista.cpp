@@ -1,0 +1,2 @@
+#include "rivista.h"
+

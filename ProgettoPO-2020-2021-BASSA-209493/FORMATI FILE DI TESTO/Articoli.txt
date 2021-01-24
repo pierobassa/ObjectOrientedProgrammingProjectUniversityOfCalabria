@@ -1,0 +1,53 @@
+TITOLO
+AI - Rivoluzione 2050
+
+
+NUMERO_PAGINE
+12
+
+
+PREZZO
+12.90
+
+CONFERENZA
+Intelligenza Artificiale Summit 2020
+
+AUTORI
+3
+0
+
+
+KEYWORDS
+Intelligenza Artificiale
+
+
+CORRELATI
+Ecco il cashback di Poste Italiane
+
+DONE
+
+TITOLO
+Ecco il cashback di Poste Italiane
+
+
+NUMERO_PAGINE
+7
+
+
+PREZZO
+11.30
+
+CONFERENZA
+Rivoluzione Poste Italiane
+
+AUTORI
+1
+4
+
+KEYWORDS
+Cashback Poste Italiane
+
+
+CORRELATI
+
+DONE

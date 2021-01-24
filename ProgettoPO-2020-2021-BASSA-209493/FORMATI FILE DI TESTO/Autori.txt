@@ -1,0 +1,65 @@
+NOME
+Mario
+
+COGNOME
+Gratteri
+
+AFFERENZE
+Uni Calabria
+Uni Torino
+
+DONE
+
+NOME
+Luigi
+
+COGNOME
+Bassa
+
+AFFERENZE
+Uni Pisa
+Uni Bologna
+
+DONE
+
+NOME
+Luca
+
+COGNOME
+De Luca
+
+AFFERENZE
+Uni Milano
+Uni Calabria
+
+DONE
+
+NOME
+Francesco
+
+COGNOME
+Simonetti
+
+AFFERENZE
+Uni Torino
+
+
+DONE
+
+NOME
+Giovanni
+
+COGNOME
+De Vries
+
+AFFERENZE
+Uni Bologna
+Uni Livorno
+Uni Calabria
+
+DONE
+
+
+
+
+

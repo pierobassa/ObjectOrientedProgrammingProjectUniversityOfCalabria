@@ -1,0 +1,22 @@
+
+NOME
+Simone
+
+COGNOME
+Leclerc
+
+AFFERENZE
+Uni Torino
+
+DONE
+
+NOME
+Vincenzo
+
+COGNOME
+Vettel
+
+AFFERENZE
+Uni Calabria
+
+DONE

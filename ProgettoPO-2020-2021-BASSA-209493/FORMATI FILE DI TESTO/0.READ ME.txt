@@ -1,0 +1,7 @@
+Nella cartella troverete file di testo relativi a ciascuna classe.
+I file sono già riempiti con esempi con il formato desiderato.
+
+Per l'autore o autori di ogni articolo, ho preferito mettere l'id dell'autore. L'id è reperibile una volta inseriti gli autori
+mediante Autori.txt, andando a cliccare "Visualizza Autori" nella UI. 
+
+Grazie per il tempo!

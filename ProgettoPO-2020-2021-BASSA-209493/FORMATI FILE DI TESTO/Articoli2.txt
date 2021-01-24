@@ -1,0 +1,210 @@
+TITOLO
+Airpods MAX sorpresa Apple
+
+
+NUMERO_PAGINE
+3
+
+PREZZO
+15.80
+
+CONFERENZA
+Apple Christmas event
+
+AUTORI
+6
+
+KEYWORDS
+Airpods Max sorpresa per natale
+Intelligenza Artificiale
+
+
+CORRELATI
+AI - Rivoluzione 2050
+Nuova Serie Samsung Galaxy S21
+
+DONE
+
+
+
+TITOLO
+Nuova Serie Samsung Galaxy S21
+
+
+NUMERO_PAGINE
+6
+
+PREZZO
+0.80
+
+CONFERENZA
+Samsung October Event
+
+AUTORI
+0
+3
+
+KEYWORDS
+Airpods Max sorpresa per natale
+Intelligenza Artificiale
+
+
+CORRELATI
+Airpods MAX sorpresa Apple
+
+DONE
+
+TITOLO
+Come funziona il conto cointesato
+
+
+NUMERO_PAGINE
+3
+
+PREZZO
+13.70
+
+RIVISTA
+Conto Italiano
+
+AUTORI
+1
+
+KEYWORDS
+Conto corrente cointesato
+Cashback Poste Italiane
+Aprire un conto Poste Italiane
+
+
+CORRELATI
+Ecco il cashback di Poste Italiane
+
+DONE
+
+
+TITOLO
+Risultati delle FP1 ultimo GP 2020 F1
+
+
+NUMERO_PAGINE
+2
+
+PREZZO
+3.80
+
+RIVISTA
+F1 Magazine
+
+AUTORI
+0
+
+KEYWORDS
+Prove Libere F1 Abu Dhabi
+Verstappen tempo piu' veloce!
+
+
+CORRELATI
+Dimesso il CEO della Ferrari
+
+DONE
+
+TITOLO
+Problemi in casa Ferrari, Camilleri si dimette!
+
+
+NUMERO_PAGINE
+1
+
+PREZZO
+0.80
+
+RIVISTA
+Motorsport News
+
+AUTORI
+0
+
+KEYWORDS
+Prove Libere F1 Abu Dhabi
+Verstappen tempo piu' veloce!
+ULTIMA ORA! CEO Camilleri si dimette!
+
+
+CORRELATI
+
+DONE
+
+TITOLO
+Robot Umano Nuova generazione
+
+
+NUMERO_PAGINE
+1
+
+PREZZO
+12.90
+
+CONFERENZA
+Intelligenza Artificiale Summit 2020
+
+AUTORI
+0
+
+KEYWORDS
+Intelligenza Artificiale
+
+
+CORRELATI
+
+DONE
+
+TITOLO
+Cashback fino a 150 euro!
+
+
+NUMERO_PAGINE
+2
+
+PREZZO
+1.70
+
+RIVISTA
+Piano Economico 2021 Italia
+
+AUTORI
+4
+2
+
+KEYWORDS
+Cashback Poste Italiane
+
+
+CORRELATI
+Ecco il cashback di Poste Italiane
+
+DONE
+
+TITOLO
+Terminato il calendario F1 2021, test a Febbraio.
+
+
+NUMERO_PAGINE
+3
+
+PREZZO
+3.20
+
+RIVISTA
+Motorsport News
+
+AUTORI
+1
+
+KEYWORDS
+Finito il campionato F1 2021
+
+
+CORRELATI
+Risultati delle FP1 ultimo GP 2020 F1
+
+DONE
